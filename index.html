@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/fav-icon.png"
+    />
+    <!-- Work Sans - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>FAQ accordion</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="accordion">
+      <div class="accordion-title">
+        <img src="assets/images/icon-star.svg" alt="" />
+        <h1 class="acc-title-inner">FAQs</h1>
+      </div>
+      <div class="accordion-content">
+        <div class="question-item container">
+          <div class="question-top row">
+            <div class="question col-10" tabindex="0">
+              What is Frontend Mentor, and how will it help me?
+            </div>
+            <div class="question-icon col-2">
+              <a class="plus-minus-button">
+                <img
+                  class="plus-minus-img"
+                  src="assets/images/icon-minus.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="question-answer">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </div>
+        </div>
+        <div class="horizontal-rule"></div>
+
+        <div class="question-item container">
+          <div class="question-top row">
+            <div class="question col-10" tabindex="0">
+              Is Frontend Mentor free?
+            </div>
+            <div class="question-icon col-2">
+              <a class="plus-minus-button">
+                <img
+                  class="plus-minus-img"
+                  src="assets/images/icon-plus.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="question-answer display-none">
+            Yes, Frontend Mentor offers both free and premium coding challenges,
+            with the free option providing access to a range of projects
+            suitable for all skill levels.
+          </div>
+        </div>
+        <div class="horizontal-rule"></div>
+
+        <div class="question-item container">
+          <div class="question-top row">
+            <div class="question col-10" tabindex="0">
+              Can I use Frontend Mentor projects in my portfolio?
+            </div>
+            <div class="question-icon col-2">
+              <a class="plus-minus-button">
+                <img
+                  class="plus-minus-img"
+                  src="assets/images/icon-plus.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="question-answer display-none">
+            Yes, you can use projects completed on Frontend Mentor in your
+            portfolio. It's an excellent way to showcase your skills to
+            potential employers!
+          </div>
+        </div>
+        <div class="horizontal-rule"></div>
+
+        <div class="question-item container">
+          <div class="question-top row">
+            <div class="question col-10" tabindex="0">
+              How can I get help if I'm stuck on a Frontend Mentor challenge?
+            </div>
+            <div class="question-icon col-2">
+              <a class="plus-minus-button">
+                <img
+                  class="plus-minus-img"
+                  src="assets/images/icon-plus.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="question-answer display-none">
+            The best place to get help is inside Frontend Mentor's Discord
+            community. There's a help channel where you can ask questions and
+            seek support from other community members.
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
